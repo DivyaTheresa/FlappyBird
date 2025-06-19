@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #70c5ce;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#board {
+    background: linear-gradient(#70c5ce, #dee4aa);
+    border: 2px solid #333;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.instructions {
+    color: white;
+    margin: 10px 0;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    .instructions {
+        font-size: 16px;
+    }
+    
+    #board {
+        max-width: 100%;
+        height: auto;
+    }
+}
